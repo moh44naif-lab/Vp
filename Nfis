@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أفضل محطات البنزين في السعودية</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+    margin:0;
+    padding:20px;
+}
+h1{color:#222;}
+button{
+    padding:12px 22px;
+    margin:6px;
+    font-size:16px;
+    border:none;
+    border-radius:10px;
+    background:#0d6efd;
+    color:#fff;
+    cursor:pointer;
+}
+button:hover{
+    background:#084298;
+}
+.station{
+    display:none;
+    margin-top:30px;
+}
+.station img{
+    width:380px;
+    max-width:95%;
+    border-radius:15px;
+    margin-top:15px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>⛽ أفضل محطات البنزين في السعودية</h1>
+
+<button onclick="showStation('aldrees')">الأدريس</button>
+<button onclick="showStation('naft')">نفط</button>
+<button onclick="showStation('sasco')">ساسكو</button>
+<button onclick="showStation('aramco')">أرامكو</button>
+
+<!-- الأدريس -->
+<div id="aldrees" class="station">
+    <h2>محطة الأدريس</h2>
+    <img src="aldrees.jpg" alt="محطة الأدريس">
+    <p>من أشهر محطات الوقود في المملكة وتتميز بالخدمات المتكاملة.</p>
+</div>
+
+<!-- نفط -->
+<div id="naft" class="station">
+    <h2>محطة نفط</h2>
+    <img src="naft.jpg" alt="محطة نفط">
+    <p>محطات حديثة بخدمة سريعة وجودة عالية.</p>
+</div>
+
+<!-- ساسكو -->
+<div id="sasco" class="station">
+    <h2>محطة ساسكو</h2>
+    <img src="sasco.jpg" alt="محطة ساسكو">
+    <p>منتشرة على الطرق السريعة وتخدم المسافرين.</p>
+</div>
+
+<!-- أرامكو -->
+<div id="aramco" class="station">
+    <h2>محطة أرامكو</h2>
+    <img src="aramco.jpg" alt="محطة أرامكو">
+    <p>تابعة لشركة أرامكو السعودية وتتميز بأعلى معايير الجودة.</p>
+</div>
+
+<script>
+function showStation(id){
+    document.querySelectorAll('.station')
+    .forEach(div => div.style.display = "none");
+    document.getElementById(id).style.display = "block";
+}
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أفضل محطات البنزين في السعودية</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+    padding:20px;
+}
+button{
+    padding:12px 22px;
+    margin:6px;
+    font-size:16px;
+    border:none;
+    border-radius:10px;
+    background:#0d6efd;
+    color:#fff;
+    cursor:pointer;
+}
+button:hover{background:#084298;}
+.station{
+    display:none;
+    background:white;
+    padding:20px;
+    margin-top:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.station img{
+    width:380px;
+    max-width:95%;
+    border-radius:15px;
+    margin:15px 0;
+}
+ul{
+    text-align:right;
+    max-width:600px;
+    margin:auto;
+}
+h3{color:#0d6efd;}
+</style>
+</head>
+
+<body>
+
+<h1>⛽ أفضل محطات البنزين في السعودية</h1>
+
+<button onclick="showStation('aldrees')">الأدريس</button>
+<button onclick="showStation('naft')">نفط</button>
+<button onclick="showStation('sasco')">ساسكو</button>
+<button onclick="showStation('aramco')">أرامكو</button>
+
+<!-- الأدريس -->
+<div id="aldrees" class="station">
+    <h2>محطة الأدريس</h2>
+    <img src="aldrees.jpg">
+
+    <h3>✅ الإيجابيات</h3>
+    <ul>
+        <li>انتشار واسع داخل المدن</li>
+        <li>خدمات متعددة (مطاعم، صرافات)</li>
+    </ul>
+
+    <h3>⭐ المميزات</h3>
+    <ul>
+        <li>تصاميم حديثة</li>
+        <li>سرعة في الخدمة</li>
+    </ul>
+
+    <h3>❌ السلبيات</h3>
+    <ul>
+        <li>ازدحام في أوقات الذروة</li>
+        <li>ليست متوفرة في كل الطرق السريعة</li>
+    </ul>
+</div>
+
+<!-- نفط -->
+<div id="naft" class="station">
+    <h2>محطة نفط</h2>
+    <img src="naft.jpg">
+
+    <h3>✅ الإيجابيات</h3>
+    <ul>
+        <li>محطات حديثة ونظيفة</li>
+        <li>تنظيم ممتاز للمضخات</li>
+    </ul>
+
+    <h3>⭐ المميزات</h3>
+    <ul>
+        <li>خدمة سريعة</li>
+        <li>توفر الوقود دائماً</li>
+    </ul>
+
+    <h3>❌ السلبيات</h3>
+    <ul>
+        <li>انتشار أقل مقارنة بالمنافسين</li>
+    </ul>
+</div>
+
+<!-- ساسكو -->
+<div id="sasco" class="station">
+    <h2>محطة ساسكو</h2>
+    <img src="sasco.jpg">
+
+    <h3>✅ الإيجابيات</h3>
+    <ul>
+        <li>منتشرة على الطرق السريعة</li>
+        <li>مناسبة للمسافرين</li>
+    </ul>
+
+    <h3>⭐ المميزات</h3>
+    <ul>
+        <li>مرافق متكاملة</li>
+        <li>مواقف واسعة</li>
+    </ul>
+
+    <h3>❌ السلبيات</h3>
+    <ul>
+        <li>قليل انتشارها داخل المدن</li>
+    </ul>
+</div>
+
+<!-- أرامكو -->
+<div id="aramco" class="station">
+    <h2>محطة أرامكو</h2>
+    <img src="aramco.jpg">
+
+    <h3>✅ الإيجابيات</h3>
+    <ul>
+        <li>جودة وقود عالية</li>
+        <li>ثقة كبيرة بالعلامة التجارية</li>
+    </ul>
+
+    <h3>⭐ المميزات</h3>
+    <ul>
+        <li>تقنيات حديثة</li>
+        <li>معايير أمان عالية</li>
+    </ul>
+
+    <h3>❌ السلبيات</h3>
+    <ul>
+        <li>عدد المحطات أقل حالياً</li>
+    </ul>
+</div>
+
+<script>
+function showStation(id){
+    document.querySelectorAll('.station')
+    .forEach(div => div.style.display = "none");
+    document.getElementById(id).style.display = "block";
+}
+</script>
+
+</body>
+</html>
